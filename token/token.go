@@ -33,8 +33,8 @@ const (
 	LET      = "LET"
 )
 
-var keywords = map[string]TokenType {
-	"fn": FUNCTION,
+var keywords = map[string]TokenType{
+	"fn":  FUNCTION,
 	"let": LET,
 }
 
