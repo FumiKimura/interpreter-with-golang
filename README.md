@@ -39,3 +39,19 @@ Parse generator -> It is tools that, when fed with a formal description of a lan
 top-down parser -> starts with constructing root node of the AST and then descends while the bottom-up parser does it other way around.<br>
 
 Expression produces value, but statements do not.
+
+### Some new terminology
+
+Prefix operator - is an operator "in front of" its operand. <br>
+
+Example: --5 <br>
+
+Postfix operator - is an operator "after" its operand. <br>
+
+Example: foobar++ <br>
+
+Infix operators - is an operator "sits" between its operands <br>
+
+5 \* 8 <br>
+
+
