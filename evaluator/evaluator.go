@@ -146,6 +146,6 @@ func isTruthy(obj object.Object) bool {
 	case FALSE:
 		return false
 	default:
-		return false
+		return true
 	}
 }
